@@ -4,10 +4,9 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon backend/server.js",
-    "dev": "set NODE_ENV=development&&node --watch backend/server.js",
-    "prod": "set NODE_ENV=production&&node --watch backend/server.js",
-    "seeder": "node backend/utils/seeder.js"
+    "start": "node server.js",
+    "dev": "set NODE_ENV=development&&node --watch server.js",
+    "prod": "set NODE_ENV=production&&node --watch server.js"
   },
   "author": "",
   "license": "ISC",
